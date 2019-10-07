@@ -13,27 +13,28 @@
 </head>
 
     <body>
-            <nav class="navbar">
-                    <ul>
-                      <li style=display:inline-block;>
-                        <a href="index.html">Home</a>
-                      </li>
-                      <li style=display:inline-block;>
-                        <a href="data_page.html">Data</a>
-                      </li>
-                      <li style=display:inline-block;>
-                        <a href="comparison.html">Comparison</a>
-                      </li>
-                    <li style=display:inline-block;>
-                      <select onchange="location=this.value;">
-                      <option value="temp.html">Temperature</option>
-                      <option value="humidity.html">Humidity</option>
-                      <option value="cloudiness.html">Cloudiness</option>
-                      <option value="wind_speed.html">Wind Speed</option>
-                    </select>                    
-                  </li>
-                </ul>
-              </nav>
+        <nav class="navbar">
+             <ul>
+                 <li style=display:inline-block;>
+                     <a href="index.html">Home</a>
+                 </li>
+                 <li style=display:inline-block;>
+                     <select onchange="location=this.value;">
+                        <option value="#">Plots</option>
+                        <option value="temp.html">Temperature</option>
+                        <option value="humidity.html">Humidity</option>
+                        <option value="cloudiness.html">Cloudiness</option>
+                        <option value="wind_speed.html">Wind Speed</option>
+                     </select>                    
+                 </li>
+                 <li style=display:inline-block;>
+                    <a href="comparison.html">Comparison</a>
+                 </li>
+                 <li style=display:inline-block;>
+                    <a href="data_page.html">Data</a>
+                 </li>
+             </ul>
+         </nav>
 	
         <div style=font-family:Arial;font-size:30;font-weight:bold;>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Comparison: Latitude vs. X</div>
         <br><br>
