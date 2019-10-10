@@ -11,6 +11,32 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
     <body>
+        <nav class="navbar">
+             <ul>
+                 <li style=display:inline-block;>
+                     <a href="index.html"><span style=font-size:30;background-color:black;color:white;>Latitude</span></a>
+                 </li>
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <li style=display:inline-block;>
+                     <select onchange="location=this.value;">
+                        <option value="#">Plots</option>
+                        <option value="temp.html">Temperature</option>
+                        <option value="humidity.html">Humidity</option>
+                        <option value="cloudiness.html">Cloudiness</option>
+                        <option value="wind_speed.html">Wind Speed</option>
+                     </select>                    
+                 </li>
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <li style=display:inline-block;>
+                    <a href="comparison.html">Comparison</a>
+                 </li>
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <li style=display:inline-block;>
+                    <a href="data_page.html">Data</a>
+                 </li>
+             </ul>
+         </nav>
+
          <div class="container">
              <div class="row">
                  <div class="col-xs-6 style="float:left;">
@@ -18,6 +44,7 @@
                  </div>
                  <div class="col-xs-6" style="float:right;">
                         <ul>
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <li style=display:inline-block;>
                                     <select onchange="location=this.value;">
                                        <option value="#">Plots</option>
@@ -27,9 +54,11 @@
                                        <option value="wind_speed.html">Wind Speed</option>
                                     </select>                    
                                 </li>
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <li style=display:inline-block;>
                                    <a href="comparison.html">Comparison</a>
                                 </li>
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                 <li style=display:inline-block;>
                                    <a href="data_page.html">Data</a>
                                 </li>
